@@ -1,0 +1,44 @@
+#include "employee_class.h"
+#include "inventory_class.h"
+#include "accounting_code.h"
+using namespace std;
+
+
+int main()
+{
+
+	int fill = 0;
+
+	char mchoice = 'b';
+
+	while (mchoice != 'q'){
+		cout << "*******************************************************" << endl;
+		cout << "i: Go to inventory managment.\n";
+		cout << "e: Go to employee managment.\n";
+		cout << "a: Go to accounting.\n";
+		cout << "q: Quit   (Quit the program)\n";
+		cout << "*******************************************************" << endl << endl;
+		cout << "\n   Please enter your choice here:";
+		cin >> mchoice;
+
+		switch (mchoice)
+		{
+		case 'i':
+			main_menuI();
+			break;
+		case 'e':
+			fill = main_menuE();
+			break;
+		case 'a':
+			fill = main_menuA();
+			break;
+		case 'q':
+			cout << "goodbye" << endl;
+			break;
+		default:
+			cout << "\n Invalid choice. Please try again.\n";
+			break;
+		}
+		return 0;
+    }
+}
