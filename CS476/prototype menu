@@ -1,0 +1,31 @@
+#include ""//apps go here
+using namespace std;
+
+
+int main()
+{
+
+	char mchoice = 'b';
+
+	while (mchoice != 'q'){
+		cout << "*******************************************************" << endl;
+		cout << ""// app selection is here
+		cout << "q: Quit   (Quit the program)\n";
+		cout << "*******************************************************" << endl << endl;
+		cout << "\n   Please enter your choice here:";
+		cin >> mchoice;
+
+		switch (mchoice)
+		{
+		case '':
+			//open apps here
+		case 'q':
+			cout << "goodbye" << endl;
+			break;
+		default:
+			cout << "\n Invalid choice. Please try again.\n";
+			break;
+		}
+		return 0;
+    }
+}
