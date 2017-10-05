@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSharpPlus", "DSharpPlus\DSharpPlus.csproj", "{EB3D8310-DFAD-4295-97F9-82E253647583}"
 EndProject
@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F953F5
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSharpPlus.WebSocket.WebSocket4NetCore", "DSharpPlus.WebSocket.WebSocket4NetCore\DSharpPlus.WebSocket.WebSocket4NetCore.csproj", "{C4C95487-628E-4E61-88D9-26BACE48380F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resharp.Discord", "Resharp.Discord\Resharp.Discord.csproj", "{083300AC-9014-44BA-96EF-9A73D9AF479B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{C4C95487-628E-4E61-88D9-26BACE48380F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4C95487-628E-4E61-88D9-26BACE48380F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4C95487-628E-4E61-88D9-26BACE48380F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083300AC-9014-44BA-96EF-9A73D9AF479B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083300AC-9014-44BA-96EF-9A73D9AF479B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083300AC-9014-44BA-96EF-9A73D9AF479B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083300AC-9014-44BA-96EF-9A73D9AF479B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
